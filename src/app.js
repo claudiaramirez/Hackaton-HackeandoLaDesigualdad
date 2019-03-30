@@ -29,5 +29,5 @@ function send() {
 }
 
 
-// const aboutUsPage = document.getElementById('aboutUsPage');
-// const writeYourHistoryPage = document.getElementById('writeYourHistoryPage')
+const aboutUsPage = document.getElementById('aboutUsPage');
+ const writeYourHistoryPage = document.getElementById('writeYourHistoryPage')
