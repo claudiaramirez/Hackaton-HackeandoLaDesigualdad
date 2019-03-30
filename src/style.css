@@ -104,8 +104,10 @@ textarea.message-large.error{
     text-align: center;
     color:  #d500f9;
 }
-
-.writeYourHistory{
-    height: 800px;
+.sidenav .menu-opcion.collapsible-header{
+    color:  #d500f9;
+    padding-left: 32px;
 }
-
+.writeYourHistory{
+    height: 600px;
+}
