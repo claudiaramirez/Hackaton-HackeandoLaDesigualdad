@@ -18,14 +18,14 @@
 <body>
     <nav class="white"> 
         <ul id="slide-out" class=" sidenav">
-            <li><a class="menu-opcion logo-menu" href="#!">Acciones por ellas</a></li>
-            <li><a class="menu-opcion" href="#!">¿Como registar tu historia?</a></li>
+            <li><a class="menu-opcion logo-menu" href="#!" id ="">Acciones por ellas</a></li>
+            <li><a class="menu-opcion" href="#!" id ="homeBtn">¿Como registar tu historia?</a></li>
             <li><div class="divider"></div></li>
-            <li><a class="menu-opcion" href="#!">Escribe tu historia</a></li> 
+            <li><a class="menu-opcion" href="#!" id="writeBtn">Escribe tu historia</a></li> 
             <li><div class="divider"></div></li>
-            <li><a class="menu-opcion" href="#!">Testimonios CDMX</a></li> 
+            <li><a class="menu-opcion" href="#!"id="testimoniesBtn">Testimonios CDMX</a></li> 
             <li><div class="divider"></div></li>
-            <li><a class="menu-opcion" href="#!">Busqueda</a></li>
+            <li><a class="menu-opcion" href="#!" id="searchBtn">Busqueda</a></li>
             <li><div class="divider"></div></li>   
         </ul>
         <div class="row">
@@ -33,8 +33,9 @@
         <a class="col s10 logo-menu1" href="#!">Acciones por ellas</a>
         </div>
     </nav>
+
 <main>
-    <section id="home" class="">
+    <section id="home" class="hide">
     <div class="row">
         <div class="col s12 m12 l12">
         <h5 class="title-sections">Conocenos</h5>
@@ -50,7 +51,7 @@
     </div>
     </div> 
     </section>
-    <section id="writeYourHistoryPage"class="writeYourHistory row">
+    <section id="writeYourHistoryPage"class="writeYourHistory row hide">
             <!--Inputs -->
             <div class="col s12 box">
                 <form class="col s10 offset-s1" >
@@ -78,12 +79,14 @@
                 </form>
             </div>
     </section>
-    <section id="testimonios">
+
+    <section id="testimonios"  class = "hide">
         <h5 class="title-sections">Testimonios Cdmx</h5>
 
     </section>
-    <section id="search">
+    <section id="search" class="hide">
         <h5 class="title-sections">accion por ellas</h5>
+
     </section>    
 </main>
     <footer class="footer">

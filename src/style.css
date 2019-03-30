@@ -1,5 +1,7 @@
 body{
+
     color: #757575;;
+
 }
 nav .sidenav-trigger i {
     height: 56px;
@@ -110,6 +112,7 @@ textarea.message-large.error{
 .writeYourHistory{
     height: 600px;
 }
+
 .title-sections{
     text-align: center;
     color: #757575;
@@ -127,5 +130,6 @@ textarea.message-large.error{
 .instruccion .icon-menu.material-icons{
   color: #d500f9;
 }
+
 
 
