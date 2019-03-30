@@ -1,0 +1,16 @@
+
+nav .sidenav-trigger i {
+    height: 56px;
+    line-height: 56px;
+    color: #d500f9;
+}
+
+  header, main, footer {
+    padding-left: 300px;
+  }
+
+  @media only screen and (max-width : 992px) {
+    header, main, footer {
+      padding-left: 0;
+    }
+  }
