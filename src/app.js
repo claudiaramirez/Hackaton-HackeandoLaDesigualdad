@@ -30,4 +30,8 @@ function send() {
 
 
 const aboutUsPage = document.getElementById('aboutUsPage');
- const writeYourHistoryPage = document.getElementById('writeYourHistoryPage')
+ const writeYourHistoryPage = document.getElementById('writeYourHistoryPage');
+ const homePage = document.getElementById('homePage');
+ const instructionsPage = document.getElementById('searchPage');
+ const testimonies = document.getElementById('testimonies');
+ const searchPage = document.getElementById('searchPage');
