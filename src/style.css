@@ -1,13 +1,11 @@
 body{
-    color: #212121;
+    color: #757575;;
 }
 nav .sidenav-trigger i {
     height: 56px;
     line-height: 56px;
     color: #d500f9;
 }
-
-
 
 .box{
     position:relative;
@@ -103,6 +101,7 @@ textarea.message-large.error{
 .logo-menu1{
     text-align: center;
     color:  #d500f9;
+    font-size: 1.4rem;
 }
 .sidenav .menu-opcion.collapsible-header{
     color:  #d500f9;
@@ -111,3 +110,22 @@ textarea.message-large.error{
 .writeYourHistory{
     height: 600px;
 }
+.title-sections{
+    text-align: center;
+    color: #757575;
+}
+.btn-home.row .col.offset-s1{
+    color: #d500f9;
+}
+.who{
+    text-align: center;
+    
+}
+.instruccion{
+ display: inline-block;
+}
+.instruccion .icon-menu.material-icons{
+  color: #d500f9;
+}
+
+

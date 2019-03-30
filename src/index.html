@@ -34,15 +34,21 @@
         </div>
     </nav>
 <main>
-    <section id="home">
-        <p>Acción por ellas</p>
-        <p> Somos una plataforma para ejercer presión a las autoridades en la búsqueda de mujeres desaparecidas en la Ciudad de México</p>
-        <h2>¿Cómo le puedo hacer?</h2>
-        <p>Escribe tu testimonio de proceso de denuncia</p>
-        <p>Acciona un a ovarias opciones para hacer publica el retraso de estereotipos</p> 
-        <p>Cuenta la historia de la mujer desaparecida, dale un rotro</p>
-        <button>Testimonios</button>
-        <button>escribe tu historia</button>  
+    <section id="home" class="">
+    <div class="row">
+        <div class="col s12 m12 l12">
+        <h5 class="title-sections">Conocenos</h5>
+        <p class="who"> Somos una plataforma para ejercer presión a las autoridades en la búsqueda de mujeres desaparecidas en la Ciudad de México</p>
+        <h5 class="title-sections">¿Cómo le puedo hacer?</h5>
+        <ul>
+                <li class="instruccion"><i class="icon-menu material-icons">done</i><span> Escribe tu testimonio de proceso de denuncia</span></li>
+                <li class="instruccion"><i class="icon-menu material-icons">done</i><span>Acciona un a ovarias opciones para hacer publica el retraso de estereotipos<span></span></li>
+                <li class="instruccion"><i class="icon-menu material-icons">done</i><span>Cuenta la historia de la mujer desaparecida, dale un rotro</span></li>
+        </ul>
+        <button id="test-btn" class="btn-home waves-effect waves-light btn col s4 m4 l4 offset-s1 pink lighten-2">Testimonios</button>
+        <button id="history" class="btn-home waves-effect waves-light btn col s4 m4 l4 offset-s1  pink lighten-2">Tu historia</button> 
+    </div>
+    </div> 
     </section>
     <section id="writeYourHistoryPage"class="writeYourHistory row">
             <!--Inputs -->
@@ -67,16 +73,17 @@
                             </select>
                         </div>
                         <div class="col s5 l8 right-align">
-                            <a id="btn-edit" class="mi-hide btn-post waves-effect waves-light btn-small purple" onclick="send()">Publicar</a>
+                            <a id="btn-edit" class="mi-hide btn-post waves-effect waves-light btn-small pink lighten-2" onclick="send()">Publicar</a>
                         </div>
                 </form>
             </div>
     </section>
     <section id="testimonios">
-        <h2>Testimonios Cdmx</h2>
+        <h5 class="title-sections">Testimonios Cdmx</h5>
+
     </section>
     <section id="search">
-        <h2>accion por ellas</h2>
+        <h5 class="title-sections">accion por ellas</h5>
     </section>    
 </main>
     <footer class="footer">
@@ -91,5 +98,5 @@
 
     
 </body>
-
+</html>
     <script src="app.js"></script> 
