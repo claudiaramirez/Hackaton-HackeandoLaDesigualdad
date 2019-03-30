@@ -27,3 +27,7 @@ function send() {
       console.error("Error adding document: ", error);
     });
 }
+
+
+// const aboutUsPage = document.getElementById('aboutUsPage');
+// const writeYourHistoryPage = document.getElementById('writeYourHistoryPage')
