@@ -16,14 +16,17 @@
 </head>    
 <body>
     <nav class="white"> 
-        <ul id="slide-out" class="sidenav">
+        <ul id="slide-out" class="collapsible sidenav">
             <li><a class="menu-opcion logo-menu" href="#!">Acciones por ellas</a></li>
             <li><div class="divider"></div></li>
             <li><a class="menu-opcion" href="#!">Nosotros</a></li>
             <li><div class="divider"></div></li>
             <li><a class="menu-opcion" href="#!">Escribe tu historia</a></li> 
             <li><div class="divider"></div></li>
-            <li><a class="menu-opcion" href="#!">Testimonios</a></li> 
+            <li>
+                <div class="collapsible-header menu-opcion">Testimonios</div>
+                <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+            </li> 
         </ul>
         <div class="row">
         <a href="#" data-target="slide-out" class="col s1 sidenav-trigger"><i class="material-icons">menu</i></a>
@@ -40,4 +43,4 @@
     </footer>
 </body>
     <script src="app.js"></script>                 
-</html>
+</html> 

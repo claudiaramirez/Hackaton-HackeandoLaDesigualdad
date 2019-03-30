@@ -27,3 +27,7 @@ nav .sidenav-trigger i {
     text-align: center;
     color:  #d500f9;
 }
+.collapsible-header.menu-opcion{
+    color:  #d500f9;
+    padding: 0 32px !important;
+}
