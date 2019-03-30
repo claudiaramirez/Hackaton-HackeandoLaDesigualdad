@@ -1,5 +1,6 @@
 body{
     color: #212121;
+    
 }
 nav .sidenav-trigger i {
     height: 56px;
@@ -7,7 +8,9 @@ nav .sidenav-trigger i {
     color: #d500f9;
 }
 
-
+.contentActions{
+    min-height: 800px;
+}
 
 .box{
     position:relative;
@@ -111,3 +114,4 @@ textarea.message-large.error{
 .writeYourHistory{
     height: 600px;
 }
+

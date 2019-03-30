@@ -1,9 +1,22 @@
+
+const homePage = document.getElementById('home');
+const writeYourHistoryPage = document.getElementById('writeYourHistoryPage');
+const testimonies = document.getElementById('testimonios');
+const search = document.getElementById('search');
+const homeBtn = document.getElementById('homeBtn');
+const writeBtn = document.getElementById('writeBtn');
+const testimoniesBtn = document.getElementById('testimoniesBtn');
+const searchBtn = document.getElementById('searchBtn');
+
+
+
+
 document.addEventListener('DOMContentLoaded', function() {
   var elems = document.querySelectorAll('.sidenav');
   var instances = M.Sidenav.init(elems);
   
   var elems = document.querySelectorAll('.collapsible');
-  var instances = M.Collapsible.init(elems, options);
+  var instances = M.Collapsible.init(elems);
 }); 
 
 let mainApp = {};
@@ -25,9 +38,37 @@ db.collection("state").add({
     console.error("Error adding document: ", error);
   });
 }
-const aboutUsPage = document.getElementById('aboutUsPage');
- const writeYourHistoryPage = document.getElementById('writeYourHistoryPage');
- const homePage = document.getElementById('homePage');
- const instructionsPage = document.getElementById('searchPage');
- const testimonies = document.getElementById('testimonies');
- const searchPage = document.getElementById('searchPage');
+
+
+
+
+
+
+ homeBtn.addEventListener("click", ()=>{
+    writeYourHistoryPage.classList.add('hide');
+    testimonies.classList.add('hide');
+    search.classList.add('hide');
+    homePage.classList.remove('hide');
+ })
+
+ writeBtn.addEventListener("click", ()=>{
+   homePage.classList.add('hide');
+   testimonies.classList.add('hide');
+   search.classList.add('hide');
+  writeYourHistoryPage.classList.remove('hide');
+ })
+
+ testimoniesBtn.addEventListener("click", ()=>{
+   homePage.classList.add('hide');
+   search.classList.add('hide');
+   writeYourHistoryPage.classList.add('hide');
+   testimonies.classList.remove('hide');
+ })
+ searchBtn.addEventListener("click", ()=>{
+   homePage.classList.add('hide');
+   writeYourHistoryPage.classList.add('hide');
+   testimonies.classList.add('hide');
+   search.classList.remove('hide');
+ })
+ 
+ 
