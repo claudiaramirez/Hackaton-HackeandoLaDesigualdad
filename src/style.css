@@ -1,0 +1,79 @@
+
+nav .sidenav-trigger i {
+    height: 56px;
+    line-height: 56px;
+    color: #d500f9;
+}
+
+
+.box{
+    position:relative;
+    top:80px;
+}
+ /*Container inner publicar*/
+.btn-post {
+    background-color: #3da29f;
+    width: 100px;
+    margin-top: 10px;
+    border-radius: 4px;
+    font-weight: 300;
+    font-size: .8rem;
+}
+.likeBtn{
+    background-color: #3da29f;
+    width: 20%;
+    margin-top: 1%;
+    border-radius: 5px;
+    font-weight: 300;
+    font-size: .9rem;
+}
+.img-privacity {
+    width: 20px;
+    margin-top: 10px;
+}
+.input-field input.msg-title[type=text].error{     
+    border:1px solid red; 
+}
+input.msg-title[type=text] {
+    font-size: 1rem;
+    border: 1px solid #e4e7ed;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+.input-field input.msg-title[type=text]:focus {
+    border: 1px solid #b1b4ba;
+    box-shadow: none;
+}
+.message-large {
+    resize: none;
+    border: 1px solid #e4e7ed;
+    outline: none;
+    height: 300px;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+.message-large:focus{
+    border:1px solid #b1b4ba;
+} 
+.input-field input.msg-title[type=text]:focus.error,
+input.msg-title[type=text].error{
+    border-color:red;
+}
+textarea.message-large.error{
+    border-color:red;
+}
+.message-large:focus {
+    border: 1px solid #b1b4ba;
+}
+.message-large::-webkit-input-placeholder, 
+.message-large::-moz-placeholder,
+.message-large:-moz-placeholder ,
+.message-large:-ms-input-placeholder{
+    font-size: 1.2rem;
+}
+.select-wrapper input.select-dropdown {
+    color: #b1b4ba;
+    font-size: .8rem;
+    padding-left: 5px;
+}
+
